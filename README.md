@@ -5,6 +5,13 @@ Here's some baseline rules I'll check for here (though I may deny a PR for any r
 - Files must be named with only alphanumeric characters, the existing files here may break this rule however this will be updated in the future.
 - Sounds cannot contain slurs or other inappropriate content
 
+# How to use
+
+To use a sound effect in a TTS message, find the path of a sound in this repository without a file extension (I.E. voice/Pootis), wrap it in parenthesis and prepend an exclaimation mark.
+Example:
+
+(!voice/Pootis)
+
 # TTS Commands
 Here is a list of commands available on the TTS bot:
 
@@ -12,7 +19,7 @@ Here is a list of commands available on the TTS bot:
 - !speed [voicespeed] | changes the speed at which the tts voice speaks when you talk. Only works with espeak and sam, dectalk requires you to use phoneme commands.
 - !pitch [voicepitch] | changes the pitch at which the tts voice speaks when you talk. Only works with espeak and sam, dectalk requires you to use phoneme commands.
 - !rqs [YouTube URL] | adds a specified YouTube URL to the song queue, only enabled on special occasions.
-- !play [Sound] | plays the sound at the specified path on this GitHub repository.
+- !play [Sound] | (DEPRECATED, use the format in the sound section instead) plays the sound at the specified path on this GitHub repository.
 - !stfu | exclusive to Festivized Killstreak Idiot, stops all speaking TTS voices.
 - !okitsannoyingnow | exclusive to Festivized Killstreak Idiot, enables a spam filter.
 - !skip | exclusive to Festivized Killstreak Idiot, skips the current song and goes to the next one.
